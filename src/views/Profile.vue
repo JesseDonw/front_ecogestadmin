@@ -108,7 +108,7 @@ const profile = ref({
   postalCode: "22900",
   about: "Spécialiste en gestion écologique et recyclage durable.",
   role: "Responsable Opérations ECOGEST",
-  picture: "",
+  picture:"https://ui-avatars.com/api/?name=Ad&background=0D8AC&color=fff&size=80",
 });
 
 // Fonction pour modifier la photo de profil

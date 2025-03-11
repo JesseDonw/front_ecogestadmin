@@ -52,10 +52,7 @@ const navigateTo = (route: string) => {
           <FontAwesomeIcon :icon="faUsers" />
           <span v-if="!isCollapsed">Agents</span>
         </li>
-        <li @click="navigateTo('/administrateurs')" :class="{ active: $route.path === '/administrateurs' }">
-          <FontAwesomeIcon :icon="faUsers" />
-          <span v-if="!isCollapsed">Administrateurs</span>
-        </li>
+     
       </ul>
     </nav>
   </div>
